@@ -11,8 +11,8 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 remove -y code
-dnf5 swap -y nano-default-editor vim-default-editor --allowerasing
 dnf5 install -y kitty neovim emacs-pgtk
+dnf5 swap -y nano-default-editor vim-default-editor --allowerasing
 
 # Use a COPR Example:
 #
