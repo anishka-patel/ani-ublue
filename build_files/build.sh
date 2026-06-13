@@ -11,10 +11,12 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y \
+  7zip-standalone \
   android-tools \
   kitty \
   neovim \
-  emacs-pgtk
+  emacs-pgtk \
+  ydotool
 
 dnf5 swap -y nano-default-editor vim-default-editor --allowerasing
 
