@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y \
-  7zip-standalone-full \
+  7zip-standalone-all \
   android-tools \
   kitty \
   neovim \
