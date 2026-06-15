@@ -11,6 +11,9 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y \
+  plasma-discover \
+  plasma-discover-flatpak \
+  plasma-discover-rpm-ostree \
   7zip-standalone-all \
   android-tools \
   kitty \
