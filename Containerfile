@@ -3,7 +3,7 @@ FROM scratch AS ctx
 COPY build_files /
 
 # Base Image
-FROM ghcr.io/ublue-os/aurora:stable as ani-ublue
+FROM ghcr.io/ublue-os/aurora:stable-daily as ani-ublue
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:latest

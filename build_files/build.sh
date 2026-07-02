@@ -15,7 +15,7 @@ dnf5 install -y \
   android-tools \
   kitty \
   neovim \
-  emacs-pgtk \
+  emacs-nw \
   ydotool
 
 dnf5 swap -y nano-default-editor vim-default-editor --allowerasing
