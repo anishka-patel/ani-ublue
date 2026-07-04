@@ -19,6 +19,8 @@ dnf5 install -y \
 
 dnf5 swap -y nano-default-editor vim-default-editor --allowerasing
 
+mkdir /nix
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
